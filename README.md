@@ -42,9 +42,7 @@ const TestComponent = () => {
                 delay={1500}
                 cursor={true}
                 cursorStyle="|"
-                styles={{
-		            fontWeight: "700"
-	            }} 
+                styles={{fontWeight: "700", "...all other css styles"}} 
                 fontSize="20px" 
                 color="red" 
             />
@@ -57,7 +55,7 @@ const TestComponent = () => {
 ### Component Props
 
 | Prop | Type | Description | Default |
-|------|------|-------------|---------|
+|:------|:------|:-------------|:---------|
 | words | array | String array holding words to show | ["Hello", "..."]|
 | typeSpeed | number | Typing speed of individual characters | 80 |
 | deleteSpeed | number | Delete speed of individual characters | 50 |
