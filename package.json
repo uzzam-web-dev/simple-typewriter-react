@@ -1,7 +1,7 @@
 {
   "name": "simple-typewriter-react",
   "private": false,
-  "version": "0.0.0",
+  "version": "3.0.0",
   "type": "module",
   "main": "dist/simple-typewriter-react.cjs.js",
   "module": "dist/simple-typewriter-react.es.js",
@@ -31,5 +31,23 @@
     "globals": "^15.11.0",
     "vite": "^5.4.10",
     "vite-plugin-lib-inject-css": "^2.1.1"
-  }
+  },
+  "keywords": [
+		"typewriter",
+		"simple-typewriter",
+		"typewriter-effect",
+		"react-typewriter",
+		"simple-typewriter-react",
+		"typewriter-library"
+  ],
+  "author": "Uzzam Altaf <uzzamwebdev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uzzam-web-dev/simple-typewriter-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uzzam-web-dev/simple-typewriter-react/issues"
+  },
+  "homepage": "https://github.com/uzzam-web-dev/simple-typewriter-react#readme",
 }
