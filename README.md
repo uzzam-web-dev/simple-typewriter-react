@@ -26,7 +26,7 @@ ___
 
 ## Usage
 
-```
+```jsx
 import React from 'react'
 import SimpleTypeWriter from 'simple-typewriter-react'
 
@@ -34,10 +34,14 @@ const TestComponent = () => {
 
     return (
         <div>
-            <SimpleTypeWriter 
+            <SimpleTypeWriter
                 words={["Dream", "Believe", "Do", "Repeat"]} 
                 loop={true} 
-    
+                typeSpeed={120}
+                deleteSpeed={80}
+                delay={1500}
+                cursor={true}
+                cursorStyle="|"
                 styles={{
 		            fontWeight: "700"
 	            }} 
@@ -49,4 +53,17 @@ const TestComponent = () => {
 }
 
 ```
-# simple-typewriter-react
+
+### Component Props
+
+| Prop | Type | Description | Default |
+|------|------|-------------|---------|
+| words | array | String array holding words to show | ["Hello", "..."]|
+| typeSpeed | number | Typing speed of individual characters | 80 |
+| deleteSpeed | number | Delete speed of individual characters | 50 |
+| delay | number | Delay between words | 1500 |
+| loop | bool | Controls if words should loop after finishing | true |
+| cursor | bool | Controls if cursor is displayed | trye |
+| cursorStyle | string | Change the cursor style if enabled | "\|" |
+
+
