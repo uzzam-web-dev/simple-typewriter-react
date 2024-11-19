@@ -2,7 +2,11 @@
 
 A simple and easy to use library for typewriter effect in react
 
-[Watch a demo](./resources/typewriter-demo.mp4)
+## DEMO
+<video width="100%" height="auto" controls autoplay>
+    <source src="./resources/typewriter-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ## Install
 ---
