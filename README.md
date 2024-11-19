@@ -4,7 +4,7 @@ A simple and easy to use library for typewriter effect in react
 
 ## DEMO
 
-[![Demo TypeWriter](https://github.com/uzzam-web-dev/simple-typewriter-react/blob/main/resources/typewriter-demo.gif)(https://github.com/uzzam-web-dev/simple-typewriter-react/blob/main/resources/typewriter-demo.gif)]
+![Demo TypeWriter](https://github.com/uzzam-web-dev/simple-typewriter-react/blob/main/resources/typewriter-demo.gif)
 
 ## Install
 
